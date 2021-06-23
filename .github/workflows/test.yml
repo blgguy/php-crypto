@@ -15,6 +15,9 @@ jobs:
         steps:
             - uses: actions/checkout@v1
 
+            - name: Copy phpunit.xml
+              run: cp phpunit.xml.dist phpunit.xml
+
             # @TODO: remove `--ignore-platform-reqs` once the `bitwasp/bitcoin` dependency is updated
             # to accept php8
             - name: Install
