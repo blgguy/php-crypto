@@ -24,7 +24,7 @@
         "simplito/elliptic-php": "^1.0"
     },
     "require-dev": {
-        "arkecosystem/stan": "^3.0",
+        "arkecosystem/stan": "^3.2",
         "illuminate/support": "^8.50"
     },
     "autoload": {
